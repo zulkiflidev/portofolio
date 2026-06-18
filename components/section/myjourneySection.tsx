@@ -52,7 +52,7 @@ function MyJourneySection() {
   };
 
   return (
-    <section className="w-full py-20 md:py-32 bg-black text-white overflow-hidden">
+    <section className="w-full py-10 md:py-12 bg-black text-white overflow-hidden">
       <div className="container mx-auto px-8 md:px-24">
         
         <div className="max-w-3xl mb-16">

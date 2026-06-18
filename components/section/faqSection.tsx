@@ -51,7 +51,7 @@ function FAQSection() {
   };
 
   return (
-    <section className="w-full py-20 md:py-32 bg-black text-white overflow-hidden">
+    <section className="w-full py-10 md:py-12 bg-black text-white overflow-hidden">
       <div className="container mx-auto px-8 md:px-24">
         
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">

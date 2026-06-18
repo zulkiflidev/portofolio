@@ -9,7 +9,8 @@ function HeroSection() {
         
         {/* Background Image */}
         <div className="absolute inset-0 z-10">
-            <Image src="/herosection/hero-background.png"  alt="Hero Background" fill  className="object-cover"  priority /> 
+            <Image src="/herosection/hero-background.png"  alt="Hero Background" fill  
+                   className="object-cover"  priority /> 
         </div>
        
         <div className="flex items-center justify-center md:absolute md:top-0 md:right-50">
@@ -55,9 +56,9 @@ function HeroSection() {
         <div className="flex items-center justify-center pt-10 md:pt-20 md:absolute md:bottom-0">
 
             <div className="min-w-[800px] md:min-w-full">
+
                 <Image src="/herosection/development-board-list.svg" alt="Development Board List" 
-                       width={1920} height={200} className="w-full h-auto opacity-80"
-                />
+                       width={1920} height={200} className="w-full h-auto opacity-80" />
             </div>
 
         </div>

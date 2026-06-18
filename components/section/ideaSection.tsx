@@ -34,6 +34,7 @@ function IdeaSection() {
   return (
     <section className="w-full flex flex-col gap-4 py-16 px-4 md:px-30">
         <div className="flex flex-col md:flex-row gap-4 items-start md:items-end">
+
             <div className="w-full md:w-4/5">
                 <h2 className="text-xl md:text-3xl lg:text-4xl font-bold 
                                 leading-tight max-w-4xl tracking-tight">
@@ -82,9 +83,11 @@ function IdeaSection() {
                     <h3 className="text-xl font-bold text-white mb-3 tracking-tight">
                         {skill.title}
                     </h3>
+
                     <p className="text-slate-400 text-sm leading-relaxed">
                         {skill.description}
                     </p>
+                
                 </div>
 
             ))}

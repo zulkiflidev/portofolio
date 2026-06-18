@@ -15,7 +15,7 @@ function ComparisonSection() {
   ]
 
   return (
-    <section className="relative w-full py-20 md:py-32 bg-black text-white overflow-hidden">
+    <section className="relative w-full py-10 md:py-12 bg-black text-white overflow-hidden">
       
       <div className="absolute top-0 left-0 w-full h-full z-0 pointer-events-none">
         
@@ -25,7 +25,7 @@ function ComparisonSection() {
 
       </div>
 
-      <div className="container mx-auto px-8 md:px-24 relative z-10">
+      <div className="container mx-auto px-4 md:px-24 relative z-10">
         
         <div className="text-center mb-16 md:mb-24">
           
@@ -43,34 +43,35 @@ function ComparisonSection() {
 
           <div className="overflow-x-auto no-scrollbar">
 
-            <div className="min-w-[700px]">
+            <div className="min-w-full md:min-w-[700px]">
               
               <div className="grid grid-cols-[2fr_1fr_1fr] border-b border-zinc-800">
             
-                <div className="flex px-10 py-8 items-center">
-                  <span className="text-2xl font-bold">Skill</span>
+                <div className="flex px-4 md:px-10 py-6 md:py-8 items-center">
+                  <span className="text-lg md:text-2xl font-bold">Skill</span>
                 </div>
             
-                <div className="flex px-6 py-8 items-center justify-center bg-[#149BB0]/80">
-                  <span className="text-2xl font-bold">With Me</span>
+                <div className="flex px-2 md:px-6 py-6 md:py-8 items-center justify-center bg-[#149BB0]/80">
+                  <span className="text-lg md:text-2xl font-bold text-center">With Me</span>
                 </div>
             
-                <div className="flex px-6 py-8 items-center justify-center">
-                  <span className="text-2xl font-bold">Other</span>
+                <div className="flex px-2 md:px-6 py-6 md:py-8 items-center justify-center">
+                  <span className="text-lg md:text-2xl font-bold text-center">Other</span>
                 </div>
             
               </div>
 
               {comparisonData.map((item, index) => (
+
                 <div key={index} className="grid grid-cols-[2fr_1fr_1fr] border-b border-zinc-800 
                                             last:border-0">
 
-                  <div className="flex px-10 py-6 items-center">
-                    <span className="text-lg text-slate-300">{item.skill}</span>
+                  <div className="flex px-4 md:px-10 py-4 md:py-6 items-center">
+                    <span className="text-sm md:text-lg text-slate-300">{item.skill}</span>
                   </div>
                   
-                  <div className="flex px-6 py-6 items-center justify-center bg-[#149BB0]/80">
-                    <div className="relative w-8 h-8">
+                  <div className="flex px-2 md:px-6 py-4 md:py-6 items-center justify-center bg-[#149BB0]/80">
+                    <div className="relative w-6 h-6 md:w-8 md:h-8">
                       
                       <Image src="/comparisonsection/check-icon.svg" 
                              alt="Yes" fill className="object-contain"
@@ -79,9 +80,9 @@ function ComparisonSection() {
                     </div>
                   </div>
                   
-                  <div className="flex px-6 py-6 items-center justify-center">
+                  <div className="flex px-2 md:px-6 py-4 md:py-6 items-center justify-center">
                     
-                    <div className="relative w-8 h-8 opacity-40">
+                    <div className="relative w-6 h-6 md:w-8 md:h-8 opacity-40">
                       
                       <Image src="/comparisonsection/close-icon.svg" 
                              alt="No" fill className="object-contain"
