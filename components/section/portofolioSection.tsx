@@ -21,7 +21,7 @@ function PortofolioSection() {
   ]
 
   return (
-    <section className="w-full py-20 md:py-32 bg-black text-white">
+    <section className="w-full py-10 md:py-25 bg-black text-white">
       <div className="container mx-auto px-8 md:px-24">
         
         <div className="text-center mb-16 md:mb-24">

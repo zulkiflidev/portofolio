@@ -33,7 +33,8 @@ const TestimonialCard = ({
           
           <div className="flex gap-1 mb-6">
           {[...Array(5)].map((_, i) => (
-              <Image  key={i} src="/trustedvoicesection/star-rating-icon.svg" alt="star" width={16} height={16} />
+              <Image  key={i} src="/trustedvoicesection/star-rating-icon.svg" alt="star" 
+                      width={16} height={16} />
           
           ))}
           

@@ -20,7 +20,6 @@ function Navbar() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-
   useEffect(() => {
     
     if (isMenuOpen) {
@@ -84,6 +83,7 @@ function Navbar() {
                 {/* Ini burger menu... */}
                 <Button className="bg-transparent text-white hover:bg-yellow-900 hover:text-black" 
                         onClick={toggleMenu}>
+
                     <Image 
                         src={isMenuOpen ? "/navbar/close-menu.svg" : "/navbar/burger-menu.svg"} 
                         width={24} 

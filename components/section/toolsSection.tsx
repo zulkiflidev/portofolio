@@ -24,12 +24,15 @@ function ToolsSection() {
               <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-8 leading-tight">
                 Tools I Use to <br /> Build
               </h2>
+              
               <p className="text-slate-400 text-lg md:text-xl max-w-sm leading-relaxed">
                 From code to design — here's the tech that helps me turn ideas into real products.
               </p>
+            
             </div>
             
             <div className="mt-20 md:mt-0">
+
               <button className="flex items-center justify-center w-full md:w-fit bg-[#149BB0] 
                                  hover:bg-[#118192] text-white px-16 py-5 rounded-sm font-semibold 
                                  gap-3 transition-all group text-lg">

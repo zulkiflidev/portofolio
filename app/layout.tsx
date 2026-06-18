@@ -26,6 +26,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html
       lang="en"
@@ -33,9 +34,11 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="flex flex-col min-h-full">
+        
         <Providers>
           {children}
         </Providers>
+
       </body>
     </html>
   );
